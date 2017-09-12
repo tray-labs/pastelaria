@@ -1,0 +1,22 @@
+{
+    "name": "tray-labs/pastelaria",
+    "description": "Sistema de Pastelaria",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gilberto Junior",
+            "email": "gjunior@tray.net.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TrayLabs\\Pastelaria\\": "app/"
+        }
+    },
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    }
+}
