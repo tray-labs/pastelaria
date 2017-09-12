@@ -2,6 +2,8 @@
 
 namespace TrayLabs\Pastelaria\Entities;
 
+use TrayLabs\Pastelaria\Helpers\Formatador;
+
 class Pastel
 {
     /**
@@ -61,6 +63,6 @@ class Pastel
      */
     public function getValor()
     {
-        return $this->valor;
+        return Formatador::emMoedaPtBr($this->valor);
     }
 }
